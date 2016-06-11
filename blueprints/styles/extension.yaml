@@ -1,0 +1,19 @@
+name: Extension section settings
+description: Feature colors for the Aylo2 theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#ffffff"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#212121"
+    hyperlink-color:
+      type: input.colorpicker
+      label: Hyperlink
+      default: "#0071bc"      

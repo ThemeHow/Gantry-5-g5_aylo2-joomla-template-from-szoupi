@@ -1,0 +1,29 @@
+galleryimages:
+  -
+    image: 'gantry-media://demos/man-landscape.jpg'
+    headline: Perfect
+    description: "Fusce suscipit dui et ipsum turpis duis.\n"
+    link: 'http://szoupi.com'
+    linktext: 'Read more'
+    title: 'img 1'
+  -
+    image: 'gantry-media://demos/man-landscape.jpg'
+    headline: Awesome
+    description: "Vestibulum ante ipsum primis in posuere.\n"
+    link: 'http://szoupi.com'
+    linktext: 'Join us'
+    title: 'img 2'
+  -
+    image: 'gantry-media://demos/man-landscape.jpg'
+    headline: Stellar
+    description: "Pellentesque habitant morbi turpis duis.\n"
+    link: 'http://szoupi.com'
+    linktext: 'Enroll now'
+    title: 'img 3'
+  -
+    image: 'gantry-media://demos/man-landscape.jpg'
+    headline: Fabulus
+    description: "Fusce et ipsum at nulla vulputate metus.\n"
+    link: 'http://szoupi.com'
+    linktext: 'Follow us'
+    title: 'img 4'

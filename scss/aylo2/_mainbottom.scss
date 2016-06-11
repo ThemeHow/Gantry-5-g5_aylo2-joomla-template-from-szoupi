@@ -1,0 +1,45 @@
+#g-mainbottom {
+	padding: $section-padding 0;
+	background: $mainbottom-background;
+	color: $mainbottom-text-color;
+
+	a {
+		color: $mainbottom-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($mainbottom-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($mainbottom-hyperlink-color, 10%);
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $mainbottom-text-color;
+	}
+
+	.button {
+		background: $mainbottom-hyperlink-color;
+		color: $white;
+		&:hover {
+			background: lighten($mainbottom-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($mainbottom-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+	
+}
+
+@media print {
+	#g-mainbottom {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

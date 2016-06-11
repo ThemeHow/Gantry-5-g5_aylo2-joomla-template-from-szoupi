@@ -1,0 +1,119 @@
+details:
+  name: Aylo2
+  version: "5.2.136"
+  icon: linux
+  date: May 10, 2016
+  author:
+    name: szoupi
+    email: szoupi@gmail.com
+    link: http://szoupi.com
+
+  documentation:
+    link: http://docs.gantry.org/gantry5
+
+  support:
+    link: https://gitter.im/gantry/gantry5
+
+  # updates:
+  #   link: http://updates.rockettheme.com/themes/aylo2.yaml
+
+  copyright: (C) 2016 szoupi. All rights reserved.
+  license: GPLv2
+  description: Aylo2 Theme
+  images:
+    thumbnail: templates/g5_aylo2/template_thumbnail.png
+    preview: templates/g5_aylo2/template_preview.png
+
+configuration:
+  gantry:
+    platform: joomla
+    engine: nucleus
+
+  theme:
+    parent: g5_aylo2
+    base: gantry-theme://common
+    file: gantry-theme://include/theme.php
+    class: \Gantry\Framework\Theme
+
+  fonts:
+    ubuntu:
+      300: 'gantry-theme://fonts/Ubuntu/Ubuntu-Light'
+      400: 'gantry-theme://fonts/Ubuntu/Ubuntu-Regular'
+      500: 'gantry-theme://fonts/Ubuntu/Ubuntu-Medium'
+      700: 'gantry-theme://fonts/Ubuntu/Ubuntu-Bold'
+    ubuntu-condensed:
+      400: 'gantry-theme://fonts/Ubuntu_Condensed/UbuntuCondensed-Regular'
+
+
+  css:
+    compiler: \Gantry\Component\Stylesheet\ScssCompiler
+    paths:
+      - gantry-theme://scss
+      - gantry-engine://scss
+    files:
+      - aylo2
+      - aylo2-joomla
+      - custom
+    persistent:
+      - aylo2
+    overrides:
+      - aylo2-joomla
+      - custom
+
+  block-variations:
+    Box Variations:
+      box1-accent1: Box 1 - accent 1
+      box2-accent2: Box 2 - accent 2
+      box3-accent3: Box 3 - accent 3
+      box4-accent4: Box 4 - accent 4
+      box5-white: Box 5 - White
+      box6-black: Box 6 - Black
+    Effects:
+      shadow: Shadow 1
+      shadow2: Shadow 2
+      rounded: Rounded
+      square: Square
+    Utility:
+      disabled: Disabled
+      align-right: Align Right
+      align-left: Align Left
+      center: Center
+
+      # Is it used?
+      full-width: Full Width
+      nomarginall: No Margin
+      nopaddingall: No Padding
+      margin-left: Margin Left
+      margin-right: Margin Right
+      margin-top: Margin Top
+      margin-bottom: Margin Bottom
+
+  dependencies:
+    gantry: 5.0.*
+    engine/nucleus: 1.0.*
+    asset/font-awesome: 4.2
+    particle/menu: 1.0.*
+
+# Displays in the admin panel 
+#the order of the appearing
+admin:
+  styles:
+    core:
+      - base
+      - accent
+    section:
+      - header
+      - navtop
+      - navigation
+      - slider
+      - showcase
+      - utility
+      - feature
+      - mainabove
+      - main
+      - mainbottom
+      - extension
+      - footer
+      - copyright
+    configuration:
+      - breakpoints

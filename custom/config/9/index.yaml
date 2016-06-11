@@ -1,0 +1,31 @@
+name: 9
+timestamp: 1457046052
+preset:
+  image: 'gantry-admin://images/layouts/2-col-right.png'
+  name: default-only-section-positions
+  timestamp: 0
+positions:
+  header-A: Header-A
+  navtop-A: Navtop-A
+  slider-full: Slider-full
+  showcase-A: Showcase-A
+  showcase-B: showcase-B
+  showcase-C: showcase-C
+  showcase-D: showcase-D
+  utility-A: Utility-A
+  utility-B: utility-B
+  utility-C: utility-C
+  feature-A: Feature-A
+  mainabove-A: Mainabove-A
+  mainabove-B: mainabove-B
+  breadcrumbs: Breadcrumbs
+  mainbottom-A: mainbottom-A
+  mainbottom-B: Mainbottom-B
+  extension-A: Extension-A
+  footer-A: Footer-A
+  footer-B: footer-B
+  footer-C: footer-C
+  footer-D: footer-D
+  copyright-A: copyright-A
+  copyright-B: copyright-B
+  copyright-C: Copyright-C

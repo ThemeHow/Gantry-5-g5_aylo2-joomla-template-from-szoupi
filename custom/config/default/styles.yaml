@@ -1,0 +1,80 @@
+base:
+  background: '#ffffff'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+  body-font: 'ubuntu'
+  heading-font: 'ubuntu-condensed'
+  favicon: 'gantry-media://favicon.ico'
+accent:
+  color-1: '#0071bc'
+  color-2: '#e0e0e0'
+  color-3: '#212121'
+  color-4: '#fdb81e'
+header:
+  background: '#000000'
+  text-color: '#ffffff'
+  hyperlink-color: '#fdb81e'
+navtop:
+  background: '#e0e0e0'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+navigation:
+  background: '#0071bc'
+  text-color: '#ffffff'
+  overlay: 'rgba(0, 113, 188, 0.2)' #0071bc 0.4
+slider:
+  background: '#0071bc'
+  text-color: '#e0e0e0'
+  hyperlink-color: '#ffffff'
+showcase:
+  background: '#e0e0e0'
+  image: ''
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+utility:
+  background: '#ffffff'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+feature:
+  background: '#0071bc'
+  text-color: '#ffffff'
+  hyperlink-color: '#fdb81e'
+mainabove:
+  background: '#e0e0e0'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+main:
+  background: '#ffffff'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+mainbottom:
+  background: '#e0e0e0'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+extension:
+  background: '#ffffff'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+footer:
+  background: '#e0e0e0'
+  text-color: '#212121'
+  hyperlink-color: '#0071bc'
+copyright:
+  background: '#000000'
+  text-color: '#ffffff'
+  hyperlink-color: '#fdb81e'
+offcanvas:
+  background: '#e0e0e0'
+  text-color: '#000000'
+  hyperlink-color: '#0071bc'
+  width: 17rem
+  toggle-color: '#ffffff'
+breakpoints:
+  large-desktop-container: 75rem
+  desktop-container: 60rem
+  tablet-container: 48rem
+  large-mobile-container: 30rem
+  mobile-menu-breakpoint: 60rem
+menu:
+  col-width: 180px
+  animation: g-fade

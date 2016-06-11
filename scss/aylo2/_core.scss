@@ -1,0 +1,72 @@
+body {
+	color: $base-text-color;
+	background: $base-background;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#g-page-surround {
+	background: $base-background;
+}
+
+@media print {
+	#g-page-surround {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}
+
+/*in tablet and mobiles*/
+@media screen and (max-width: 60rem) {
+	
+	/*align all in the center*/
+	.g-block {
+		text-align: justify;
+
+		h1,h2,h3,h4,h5,h6 {
+			text-align: center;
+
+		}
+	}
+	
+	/*keep the lists left-aligned*/
+	ul {
+		text-align: left;
+	}
+
+}
+
+
+
+.aylo-logo {
+	font-size: 2.1rem;
+	/*margin: 1% 0;*/
+	text-decoration: none;
+	font-weight: 900;
+	display: inline-block;
+
+
+
+	@include breakpoint(mobile-only) {
+		display: block;
+		text-align: center;
+	}
+	img {
+		width: 150px;
+	}
+	a {
+		color: #000000;
+	}
+}
+
+/*used in particles such as custom content*/
+.logo-large {
+	display: inline-block;
+}
+
+
+.aylo-full-height {
+	height: 100vh; /*100% viewport height for slider background*/
+}
+
+

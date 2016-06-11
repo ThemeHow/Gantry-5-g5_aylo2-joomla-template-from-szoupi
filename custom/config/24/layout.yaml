@@ -1,0 +1,136 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1459466622
+layout:
+  /header/:
+    -
+      - menu-2544
+  /navtop/: {  }
+  /navigation/: {  }
+  /slider/: {  }
+  /showcase/: {  }
+  /utility/:
+    -
+      - 'custom-1500 33.3'
+      - 'custom-7401 33.3'
+      - 'custom-3013 33.3'
+    -
+      - 'custom-6074 33.3'
+      - 'custom-1762 33.3'
+      - 'custom-4099 33.3'
+  /feature/: {  }
+  /mainabove/: {  }
+  /container-main/:
+    -
+      -
+        'sidebar 20': {  }
+      -
+        'main 60':
+          -
+            - system-content-9406
+      -
+        'aside 20': {  }
+  /mainbottom/: {  }
+  /extension/: {  }
+  /footer/: {  }
+  /copyright/: {  }
+  offcanvas:
+    -
+      - mobile-menu-1887
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navtop:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  slider:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  mainabove:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  container-main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  custom-1500:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h1>Box 1 - accent 1</h1>\n<h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
+    block:
+      variations: box1-accent1
+  custom-7401:
+    title: 'box 2 - accent 2'
+    attributes:
+      html: "<h1>Box 2 - accent 2</h1><h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
+    block:
+      variations: box2-accent2
+  custom-3013:
+    title: 'box 3 - accent3'
+    attributes:
+      html: "<h1>Box 3 - accent 3</h1>\n<h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
+    block:
+      variations: box3-accent3
+  custom-6074:
+    title: 'Box 4 - accent 4'
+    attributes:
+      html: "<h1> Box 4 - accent 4 </h1>\n<h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
+    block:
+      variations: box4-accent4
+  custom-1762:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h1> Box 5 - White </h1>\n<h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
+    block:
+      variations: box5-white
+  custom-4099:
+    title: 'Box 6 - black'
+    attributes:
+      html: "<h1> Box 6 - black </h1>\n<h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
+    block:
+      variations: box6-black

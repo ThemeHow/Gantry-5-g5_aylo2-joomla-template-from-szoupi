@@ -1,0 +1,23 @@
+name: Showcase Colors
+description: Showcase colors for the Aylo2 theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#e0e0e0"
+    image:
+      type: input.imagepicker
+      label: Background Image
+      default: ""
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#212121"
+    hyperlink-color:
+      type: input.colorpicker
+      label: Hyperlink
+      default: "#0071bc"    

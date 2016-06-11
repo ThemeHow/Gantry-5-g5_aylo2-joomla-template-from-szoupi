@@ -1,0 +1,538 @@
+preset1:
+  image: 'gantry-admin://images/presets/blue.png'
+  description: 'Blue - default'
+  colors:
+    - '#0071bc'
+    - '#e0e0e0'
+    - '#000000'
+    - '#fdb81e'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    accent:
+      color-1: '#0071bc' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#fdb81e' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#fdb81e'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    navigation:
+      background: '#0071bc'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#0071bc'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    feature:
+      background: '#0071bc'
+      text-color: '#ffffff'
+      hyperlink-color: '#fdb81e'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#0071bc'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#fdb81e'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#0071bc'
+
+preset2:
+  image: 'gantry-admin://images/presets/green.png'
+  description: 'Green'
+  colors:
+    - '#387A36'
+    - '#e0e0e0'
+    - '#000000'
+    - '#f5be18'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    accent:
+      color-1: '#387A36' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#f5be18' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#f5be18'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    navigation:
+      background: '#387A36'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#387A36'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    feature:
+      background: '#387A36'
+      text-color: '#ffffff'
+      hyperlink-color: '#f5be18'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#387A36'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#f5be18'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#387A36'
+
+preset3:
+  image: 'gantry-admin://images/presets/purple.png'
+  description: 'Purple'
+  colors:
+    - '#96244B'
+    - '#e0e0e0'
+    - '#000000'
+    - '#A39A37'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    accent:
+      color-1: '#96244B' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#A39A37' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#A39A37'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    navigation:
+      background: '#96244B'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#96244B'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    feature:
+      background: '#96244B'
+      text-color: '#ffffff'
+      hyperlink-color: '#A39A37'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#96244B'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#A39A37'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#96244B'
+
+preset4:
+  image: 'gantry-admin://images/presets/red.png'
+  description: 'Red'
+  colors:
+    - '#e31c3d'
+    - '#e0e0e0'
+    - '#000000'
+    - '#A39A37'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    accent:
+      color-1: '#e31c3d' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#A39A37' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#A39A37'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    navigation:
+      background: '#e31c3d'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#e31c3d'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    feature:
+      background: '#e31c3d'
+      text-color: '#ffffff'
+      hyperlink-color: '#A39A37'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#e31c3d'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#A39A37'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#e31c3d'
+
+preset5:
+  image: 'gantry-admin://images/presets/orange.png'
+  description: 'Orange'
+  colors:
+    - '#FF8C00'
+    - '#e0e0e0'
+    - '#000000'
+    - '#00ACFF'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    accent:
+      color-1: '#FF8C00' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#00ACFF' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#00ACFF'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    navigation:
+      background: '#FF8C00'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#FF8C00'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    feature:
+      background: '#FF8C00'
+      text-color: '#ffffff'
+      hyperlink-color: '#00ACFF'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FF8C00'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#00ACFF'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#FF8C00'
+
+preset6:
+  image: 'gantry-admin://images/presets/gold.png'
+  description: 'Gold'
+  colors:
+    - '#FFD700'
+    - '#e0e0e0'
+    - '#000000'
+    - '#1100FF'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    accent:
+      color-1: '#FFD700' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#1100FF' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#1100FF'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    navigation:
+      background: '#FFD700'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#FFD700'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    feature:
+      background: '#FFD700'
+      text-color: '#ffffff'
+      hyperlink-color: '#1100FF'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#FFD700'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#1100FF'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#FFD700'
+
+preset7:
+  image: 'gantry-admin://images/presets/navy.png'
+  description: 'Navy'
+  colors:
+    - '#000080'
+    - '#e0e0e0'
+    - '#000000'
+    - '#806900'
+
+  styles:
+    base:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    accent:
+      color-1: '#000080' #main color
+      color-2: '#e0e0e0' #light main color
+      color-3: '#212121' #dark main color
+      color-4: '#806900' #different color
+    header:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#806900'
+    navtop:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    navigation:
+      background: '#000080'
+      text-color: '#ffffff'
+      overlay: 'rgba(0, 0, 0, 0.1)' #transparency
+    slider:
+      background: '#000080'
+      text-color: '#e0e0e0'
+      hyperlink-color: '#ffffff'
+    showcase:
+      background: '#e0e0e0'
+      image: ''
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    utility:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    feature:
+      background: '#000080'
+      text-color: '#ffffff'
+      hyperlink-color: '#806900'
+    mainabove:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    main:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    mainbottom:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    extension:
+      background: '#ffffff'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    footer:
+      background: '#e0e0e0'
+      text-color: '#212121'
+      hyperlink-color: '#000080'
+    copyright:
+      background: '#000000'
+      text-color: '#ffffff'
+      hyperlink-color: '#806900'
+    offcanvas:
+      background: '#e0e0e0'
+      text-color: '#000000'
+      hyperlink-color: '#000080'

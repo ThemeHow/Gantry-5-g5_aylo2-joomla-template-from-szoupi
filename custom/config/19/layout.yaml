@@ -1,0 +1,194 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/outlines/3-col.png'
+  name: default
+  timestamp: 1460032898
+layout:
+  /header/:
+    -
+      - position-header
+  /navtop/:
+    -
+      - position-navtop
+  /navigation/:
+    -
+      - 'logo-5783 20'
+      - 'menu-5628 60'
+      - 'custom-8080 20'
+  /slider/:
+    -
+      - position-slider
+  /showcase/:
+    -
+      - position-showcase
+  /utility/:
+    -
+      - position-utility
+  /feature/:
+    -
+      - position-feature
+  /mainabove/:
+    -
+      - position-mainabove
+  /container-main/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-sidebar
+          -
+            - spacer-3375
+      -
+        'main 60':
+          -
+            - position-breadcrumbs
+          -
+            - system-messages-8707
+          -
+            - system-content-9836
+      -
+        'aside 20':
+          -
+            - position-aside
+          -
+            - spacer-7790
+  /mainbottom/:
+    -
+      - position-mainbottom
+  /extension/:
+    -
+      - position-extension
+  /footer/:
+    -
+      - position-footer
+  /copyright/:
+    -
+      - position-copyright
+    -
+      - 'copyright-8944 25'
+      - 'social-8440 50'
+      - 'totop-6376 5'
+      - 'branding-6328 20'
+  offcanvas:
+    -
+      - mobile-menu-3537
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navtop:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  slider:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  mainabove:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  container-main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  position-header:
+    attributes:
+      key: header
+  position-navtop:
+    attributes:
+      key: navtop
+  logo-5783:
+    block:
+      variations: center
+  custom-8080:
+    title: Phone
+    attributes:
+      html: '<h2 style="margin: auto;"><span class="fa fa-phone-square" > </span> +30 69 00 00 00</h2>'
+    block:
+      variations: center
+  position-slider:
+    attributes:
+      key: slider
+  position-showcase:
+    attributes:
+      key: showcase
+  position-utility:
+    attributes:
+      key: utility
+  position-feature:
+    attributes:
+      key: feature
+  position-mainabove:
+    attributes:
+      key: mainabove
+  position-sidebar:
+    attributes:
+      key: sidebar
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  position-aside:
+    attributes:
+      key: aside
+  position-mainbottom:
+    attributes:
+      key: mainbottom
+  position-extension:
+    attributes:
+      key: extension
+  position-footer:
+    attributes:
+      key: footer
+  position-copyright:
+    attributes:
+      key: copyright
+  social-8440:
+    block:
+      variations: 'center nopaddingall'
+  totop-6376:
+    title: 'To Top'
+    block:
+      variations: align-right
+  branding-6328:
+    block:
+      variations: align-right

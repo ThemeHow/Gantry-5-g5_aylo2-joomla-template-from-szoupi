@@ -1,0 +1,67 @@
+version: 2
+
+preset:
+  image: gantry-admin://images/layouts/3-col-left.png
+
+layout:
+
+  /header/:
+    - position-header
+
+  /navtop/:
+    - position-navtop
+    - logo
+
+  /navigation/:
+    - menu
+
+  /slider/:
+    - position-slider
+
+  /showcase/:
+    - position-showcase
+
+  /utility/:
+    - position-utility
+
+  /feature/:
+    - position-feature
+
+  /mainabove/:
+    - position-mainabove
+
+  /container-main/:
+    -
+      - sidebar 20:
+         - position-sidebar
+      - aside 20:
+         - position-aside
+      - main 60:
+          - position-breadcrumbs
+          - system-messages
+          - system-content
+
+  /mainbottom/:
+    - position-mainbottom
+
+  /extension/:
+    - position-extension    
+
+  /footer/:
+    - position-footer
+    - [copyright 40, spacer 30, branding 30]
+
+  /copyright/:
+    - position-copyright        
+
+  offcanvas:
+    - mobile-menu
+
+structure:
+  sidebar:
+    subtype: aside
+    block:
+      fixed: 1
+  aside:
+    block:
+      fixed: 1

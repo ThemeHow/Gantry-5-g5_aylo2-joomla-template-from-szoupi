@@ -1,0 +1,9 @@
+# aylo2-theme:
+#   title: 'Aylo2 Theme'
+#   description: 'Sample menu for Aylo2 theme.'
+
+#   items:
+#     aylo2:
+#       title: 'Home'
+#       layout: home
+#       home: 1

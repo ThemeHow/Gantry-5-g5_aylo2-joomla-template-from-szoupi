@@ -1,0 +1,300 @@
+.flush {
+	.g-container {
+		> .g-grid {
+			> .g-block {
+				> .g-content {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+
+.box1-accent1 {
+	.g-content {
+		background: $accent-color-1 !important;
+		color: $white !important;
+		h1, h2, h3, h4, h5, h6, strong, i {
+			color: $white !important;
+		}
+		p {
+			color: $white !important;
+		}
+		a {
+			color: $accent-color-4 !important;
+			&:hover, &:active, &:focus {
+				font-weight:900;
+				text-decoration: none;
+				color:lighten($accent-color-4, 10%) !important;
+			}
+			&:visited {
+				font-weight:900;
+				color:lighten($accent-color-4, 10%) !important;
+			}
+		}
+		.button {
+			background: $accent-color-4  !important;
+			color: $white !important;
+			&:hover {
+				background: lighten($accent-color-4, 7%)  !important;
+			}
+			&:active {
+				background: darken($accent-color-4, 5%)  !important;
+			}
+			&:visited {
+				color: $white !important;
+			}
+		}
+	}
+}	
+
+.box2-accent2 {
+	.g-content {
+		background: $accent-color-2 !important;
+		color: $black !important;
+		h1, h2, h3, h4, h5, h6, strong, i {
+			color: $black !important;
+		}
+		p {
+			color: $black !important;
+		}
+		a {
+			color: $accent-color-1 !important;
+			&:hover, &:active, &:focus {
+				font-weight:900;
+				text-decoration: none;
+				color:lighten($accent-color-1, 10%) !important;
+			}
+			&:visited {
+				font-weight:900;
+				color:lighten($accent-color-1, 10%) !important;
+			}
+		}
+		.button {
+			background: $accent-color-1 !important;
+			color: $white !important;
+			&:hover {
+				background: lighten($accent-color-1, 7%) !important;
+			}
+			&:active {
+				background: darken($accent-color-1, 5%) !important;
+			}
+			&:visited {
+				color: $white !important;
+			}
+		}
+	}
+}
+
+.box3-accent3 {
+	.g-content {
+		background: $accent-color-3 !important;
+		color: $white !important;
+		h1, h2, h3, h4, h5, h6, strong, i {
+			color: $white !important;
+		}
+		
+		p {
+			color: $white !important;
+		}
+
+		a {
+			color: $accent-color-4 !important;
+			&:hover, &:active, &:focus {
+				font-weight:900;
+				text-decoration: none;
+				color:lighten($accent-color-4, 10%) !important;
+			}
+			&:visited {
+				font-weight:900;
+				color:lighten($accent-color-4, 10%) !important;
+			}
+		}
+		.button {
+			background: $accent-color-1 !important;
+			color: $white !important;
+			&:hover {
+				background: lighten($accent-color-1, 7%) !important;
+			}
+			&:active {
+				background: darken($accent-color-1, 5%) !important;
+			}
+			&:visited {
+				color: $white !important;
+			}
+		}
+	}
+}
+
+.box4-accent4 {
+	.g-content {
+		background: $accent-color-4;
+		color: $accent-color-3 !important;
+		h1, h2, h3, h4, h5, h6, strong, i {
+			color: $accent-color-3 !important;
+		}
+		p {
+			color: $white !important;
+		}
+
+		a {
+			color: $accent-color-1 !important;
+			&:hover, &:active, &:focus {
+				font-weight:900;
+				text-decoration: none;
+				color:lighten($accent-color-1, 10%) !important;
+			}
+			&:visited {
+				font-weight:900;
+				color:lighten($accent-color-1, 10%) !important;
+			}
+		}
+		.button {
+			background: $accent-color-1 !important;
+			color: $white !important;
+			&:hover {
+				background: lighten($accent-color-1, 7%) !important;
+			}
+			&:active {
+				background: darken($accent-color-1, 5%) !important;
+			}
+			&:visited {
+				color: $white !important;
+			}
+		}
+	}
+}
+
+.box5-white {
+	.g-content {
+		background: $white;
+		color: $black !important;
+		h1, h2, h3, h4, h5, h6, strong, i {
+			color: $black !important;
+		}
+		p {
+			color: $black !important;
+		}
+
+		a {
+			color: $accent-color-1 !important;
+			&:hover, &:active, &:focus {
+				font-weight:900;
+				text-decoration: none;
+				color:lighten($accent-color-1, 10%) !important;
+			}
+			&:visited {
+				font-weight:900;
+				color:lighten($accent-color-1, 10%) !important;
+			}
+		}
+		.button {
+			background: $accent-color-1 !important;
+			color: $white !important;
+			&:hover {
+				background: lighten($accent-color-1, 7%) !important;
+			}
+			&:active {
+				background: darken($accent-color-1, 5%) !important;
+			}
+			&:visited {
+				color: $white !important;
+			}
+		}
+	}
+}
+
+
+.box6-black {
+	.g-content {
+		background: $black;
+		color: $white !important;
+		h1, h2, h3, h4, h5, h6, strong, i {
+			color: $white !important;
+		}
+		p {
+			color: $white !important;
+		}
+
+		a {
+			color: $accent-color-4 !important;
+			&:hover, &:active, &:focus {
+				font-weight:900;
+				text-decoration: none;
+				color:lighten($accent-color-4, 10%) !important;
+			}
+			&:visited {
+				font-weight:900;
+				color:lighten($accent-color-4, 10%) !important;
+			}
+		}
+		.button {
+			background: $accent-color-1 !important;
+			color: $white !important;
+			&:hover {
+				background: lighten($accent-color-1, 7%) !important;
+			}
+			&:active {
+				background: darken($accent-color-1, 5%) !important;
+			}
+			&:visited {
+				color: $white !important;
+			}
+		}
+	}
+}
+
+.shadow {
+	.g-content {
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.1) !important;
+	}
+}
+
+.shadow2 {
+	.g-content {
+		box-shadow: 0 0 4px rgba(0,0,0,0.15) !important;
+	}
+}
+
+.disabled {
+	.g-content {
+		opacity: 0.4;
+	}
+}
+
+.square {
+	.g-content {
+		border-radius: none !important;
+	}
+}
+
+.rounded {
+	.g-content {
+		border-radius: $core-border-radius !important;
+	}
+}
+
+.margin-left {
+	.g-content {
+		margin-left: 1em;
+	}
+}
+
+.margin-right {
+	.g-content {
+		margin-right: 1em;
+	}
+}
+
+.margin-top {
+	.g-content {
+		margin-top: 1em;
+	}
+}
+
+.margin-bottom {
+	.g-content {
+		margin-bottom: 1em;
+	}
+}

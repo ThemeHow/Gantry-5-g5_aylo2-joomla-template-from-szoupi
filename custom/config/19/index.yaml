@@ -1,0 +1,21 @@
+name: 19
+timestamp: 1460033071
+preset:
+  image: 'gantry-admin://images/outlines/3-col.png'
+  name: default
+  timestamp: 1460032898
+positions:
+  header: Header
+  navtop: Navtop
+  slider: Slider
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  mainabove: Mainabove
+  sidebar: Sidebar
+  breadcrumbs: Breadcrumbs
+  aside: Aside
+  mainbottom: Mainbottom
+  extension: Extension
+  footer: Footer
+  copyright: Copyright

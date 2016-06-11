@@ -1,0 +1,354 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/outlines/home.png'
+  name: home preset
+  timestamp: 1456421559
+layout:
+  /header/:
+    -
+      - position-header
+  /navtop/:
+    -
+      - position-navtop
+
+  /navigation/:
+    -
+      - 'custom-7600 20'
+      - 'menu 60'
+      - 'custom-8080 20'
+
+  /slider/:
+    -
+      - position-slider
+    -
+      - custom-7430
+
+  /showcase/:
+    -
+      - position-showcase
+    -
+      - imagegallerySZ
+
+  /utility/:
+    -
+      - position-utility
+    -
+      - custom-6331
+
+  /feature/:
+    -
+      - position-feature
+    -
+      - 'customcontentSZ 33.3'
+      - 'customcontentSZ 33.3'
+      - 'customcontentSZ 33.3'
+    -
+      - 'customcontentSZ 33.3'
+      - 'customcontentSZ 33.3'
+      - 'customcontentSZ 33.3'
+      
+  /mainabove/:
+    -
+      - position-mainabove
+
+  /container-main/:
+    -
+      - sidebar 20:
+         - position-sidebar
+         - spacer
+      - main 60:
+          - position-breadcrumbs
+          - system-messages
+          - system-content
+      - aside 20:
+         - position-aside
+         - spacer
+
+  /mainbottom/:
+    -
+      - position-mainbottom
+    -
+      - 'customcontentSZ-7802 50'
+      - 'custom-1159 50'
+
+  /extension/:
+    -
+      - position-extension
+    -
+      - custom-4401
+    -
+      - 'logo-7953 20'
+      - 'logo-5902 20'
+      - 'logo-9817 20'
+      - 'logo-3810 20'
+      - 'logo-5804 20'
+  /footer/:
+    -
+      - 'position-footer 25'
+      - 'position-position-6804 25'
+      - 'position-position-9450 25'
+      - 'position-position-6906 25'
+    -
+      - 'custom-9572 25'
+      - 'custom-1988 25'
+      - 'custom-4578 25'
+      - 'position-module-5865 25'
+  /copyright/:
+    -
+      - position-copyright
+    -
+      - 'copyright-7098 25'
+      - 'social-3286 50'
+      - 'totop-7325 5'
+      - 'branding-9248 20'
+  offcanvas:
+    -
+      - mobile-menu-1887
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navtop:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  slider:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: 'gantry-media://demos/galaxy03.jpg'
+      backgroundOverlay: 'rgba(0, 0, 0, 0)'
+      backgroundAttachment: fixed
+      backgroundRepeat: ''
+      backgroundPosition: 'center center'
+      backgroundSize: cover
+  showcase:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  mainabove:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  position-navtop:
+    attributes:
+      key: navtop
+  custom-7600:
+    title: 'My logo'
+    attributes:
+      html: '<h1 style="margin: auto;">SZOUPI<small class="hidden-tablet hidden-phone"> | Aylo2 template</small></h1>'
+    block:
+      variations: center
+  menu:
+    block:
+      variations: center
+  custom-8080:
+    title: Phone
+    attributes:
+      html: '<h2 style="margin: auto;"><span class="fa fa-phone-square" > </span> +00 00 00 00 00</h2>'
+    block:
+      variations: center
+  position-slider:
+    attributes:
+      key: slider
+  custom-7430:
+    title: Aylo2
+    attributes:
+      html: "<div style=\"height: 200px\"></div>\n\n<h1 style=\"font-size: 4rem\">Title</h1>\n<h2>A little description here</h2>\n<p><a href=\"#\" class=\"aylo-button success\">Call for action</a></p>\n"
+    block:
+      class: aylo-full-height
+      variations: center
+  position-showcase:
+    attributes:
+      key: showcase
+  imagegallerySZ:
+    attributes:
+      galleryimages:
+        -
+          image: 'gantry-media://demos/mac-coffee.jpg'
+          headline: Perfect
+          description: "Use <i>Image Gallery</i> particle to show images in a row.\n"
+          link: 'http://szoupi.com'
+          linktext: 'Read more'
+          title: 'img 1'
+        -
+          image: 'gantry-media://demos/man-landscape.jpg'
+          headline: Awesome
+          description: "Use <i>Image Gallery</i> particle to show images in a row.\n"
+          link: 'http://szoupi.com'
+          linktext: 'Join us'
+          title: 'img 2'
+        -
+          image: 'gantry-media://demos/mac-coffee.jpg'
+          headline: Stellar
+          description: "Use <i>Image Gallery</i> particle to show images in a row.\n"
+          link: 'http://szoupi.com'
+          linktext: 'Enroll now'
+          title: 'img 3'
+        -
+          image: 'gantry-media://demos/man-landscape.jpg'
+          headline: Fabulus
+          description: "Use <i>Image Gallery</i> particle to show images in a row.\n"
+          link: 'http://szoupi.com'
+          linktext: 'Follow us'
+          title: 'img 4'
+
+  position-utility:
+    attributes:
+      key: utility
+  customcontentSZ:
+    attributes:
+      mainicon: 'fa fa-joomla fa-4x'
+      headline: Headline
+      description: 'Use the <i>Custom Content</i> Particle to create this'
+      link: 'http://szoupi.com'
+      linktext: 'Read more'
+    block:
+      variations: center
+  position-feature:
+    attributes:
+      key: feature
+  custom-6331:
+    title: Quote
+    attributes:
+      html: "  <blockquote>\n    <p>Put something inspiring and motivating here</p>\n<cite>Use the class aylo-quote-1</cite>\n  </blockquote>"
+    block:
+      class: aylo-quote-1
+      variations: center
+  position-mainabove:
+    attributes:
+      key: mainabove
+  position-breadcrumbs:
+    attributes:
+      enabled: 0
+      key: breadcrumbs
+  position-mainbottom:
+    attributes:
+      key: mainbottom
+  customcontentSZ-7802:
+    title: 'Custom Content'
+    attributes:
+      image: 'gantry-media://demos/mac-coffee.jpg'
+  custom-1159:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h2>Title</h2>\n<ul>\n<li>Morbi non sodales nisi.</li>\n<li>Suspendisse feugiat quam</li>\n<li>Morbi non sodales nisi. </li>\n<li>Suspendisse feugiat quam</li>\n</ul>\n<p> Fusce tristique venenatis mauris nullam.\nFusce tristique. Fusce tristique venenatis mauris nullam.</p>\n"
+    block:
+      class: 'aylo-list check-circle'
+      variations: 'margin-bottom margin-right margin-left'
+  position-extension:
+    attributes:
+      key: extension
+  custom-4401:
+    title: 'Some of'
+    attributes:
+      html: '<h1>Some of the things that inspire us</h1>'
+    block:
+      variations: center
+  logo-7953:
+    title: wp
+    attributes:
+      image: 'gantry-media://demos/wordpress500x500.png'
+  logo-5902:
+    title: apple
+    attributes:
+      image: 'gantry-media://demos/apple500x500.png'
+  logo-9817:
+    title: linux
+    attributes:
+      image: 'gantry-media://demos/linux500x500.png'
+  logo-3810:
+    title: joomla
+    attributes:
+      image: 'gantry-media://demos/joomla500x500.jpeg'
+  logo-5804:
+    title: firefox
+    attributes:
+      image: 'gantry-media://demos/firefox500x500.jpeg'
+  position-footer:
+    title: Footer-A
+    attributes:
+      key: footer-A
+  position-position-6804:
+    title: footer-B
+    attributes:
+      key: footer-B
+  position-position-9450:
+    title: footer-C
+    attributes:
+      key: footer-C
+  position-position-6906:
+    title: footer-D
+    attributes:
+      key: footer-D
+  custom-9572:
+    title: Services
+    attributes:
+      html: "<h2>Services</h2>\n<ul>\n<li>Morbi non sodales nisi.</li>\n<li>Suspendisse feugiat quam</li>\n<li>Morbi non sodales nisi. </li>\n<li>Suspendisse feugiat quam</li>\n</ul>\n<p> </p>"
+  custom-1988:
+    title: 'Other links'
+    attributes:
+      html: "<h2>Links</h2>\n<ul>\n<li>Morbi non sodales nisi.</li>\n<li>Suspendisse feugiat quam</li>\n<li>Morbi non sodales nisi. </li>\n<li>Suspendisse feugiat quam</li>\n</ul>\n<p> </p>"
+  custom-4578:
+    title: Privacy
+    attributes:
+      html: "<h2>We respect your privacy</h2> \n<p>and will never share your email address with any person or organization</p>"
+  position-module-5865:
+    title: 'Stay in touch'
+    attributes:
+      module_id: ''
+      key: stay-in-touch
+  position-copyright:
+    attributes:
+      key: copyright
+  social-3286:
+    block:
+      variations: 'center nopaddingall'
+  totop-7325:
+    title: 'To Top'
+    block:
+      variations: align-right
+  branding-9248:
+    block:
+      variations: align-right

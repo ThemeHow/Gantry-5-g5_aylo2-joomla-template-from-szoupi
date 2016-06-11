@@ -1,0 +1,31 @@
+/*NOTE
+* _nav.scss has each own g-social class. 
+Some sections may have too.
+*/
+
+
+/*2 STYLES OF SOCIAL*/
+
+.g-social {
+	margin: 1% 0;
+	a {
+		display: inline-block;
+		padding: 0.1rem 0.4rem;
+		/*background: #fafafa;*/
+		/*border: 1px solid $base-border-color;*/
+		/*border-radius: $core-border-radius;*/
+		margin-top: 4px;
+	}
+}
+
+/*.g-social{
+	a {
+		background: darken($navigation-background, 6%);
+		border: none;
+		color: $navigation-text-color;
+		@include transition(background 0.2s);
+		&:hover {
+			background: lighten($navigation-background, 6%);
+		}
+	}
+}*/

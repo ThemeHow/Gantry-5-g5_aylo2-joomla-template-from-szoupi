@@ -1,0 +1,234 @@
+/*check with _typograply.scss .button*/
+.btn-primary {
+	background: $accent-color-1;
+	color: $white;
+	text-shadow: none;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	&:hover {
+		background: lighten($accent-color-1, 5%);
+		color: $white;
+	}
+	&:active, &:focus {
+		background: darken($accent-color-1, 5%);
+		box-shadow: inset -1px -1px 1px rgba(0,0,0,0.15);
+		color: $white;
+	}
+}
+
+.btn-group > .btn + .dropdown-toggle {
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.btn-group.open .btn-primary.dropdown-toggle {
+	background: darken($accent-color-1, 5%);
+	color: $white;
+	box-shadow: inset -1px -1px 1px rgba(0,0,0,0.15);
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	background-image: none;
+	background-color: $accent-color-1;
+}
+
+.btn-link {
+	color: $accent-color-1;
+}
+
+/*Article details - information*/
+.article-info dt, .article-info dd {
+    display: inline-block;
+    font-size: 0.95em;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/*hide details word*/
+dt.article-info-term {
+  display: none;
+}
+
+/*email to a friend window*/
+div.mailto-close {
+  float: right;
+}
+
+/*print-email dropdown*/
+.btn-group > .btn {
+	background-image: none;
+	background-repeat: no-repeat;
+	border-style: none;
+}
+
+dl.article-info, ul.tags.inline {
+	margin: 10px 0px;
+}
+
+
+/*rating*/
+div.content_rating {
+  float:left;
+}
+
+span.content_vote{
+	margin: 0 0 10px 0;
+	float: right;
+}
+
+/*breadcramps*/
+.breadcrumb {
+  /* Change the default value #F5F5F5 in a different color */
+  /*background-color: #F5F5F5;*/
+ 
+  /* No background color + change margins and padding */
+/*  background: none; 
+  margin: 0 0 0 0;
+  padding: 0;*/
+}
+
+.breadcrumb a{
+	color:accent-color-1;
+}
+
+.breadcrumb > li {
+	text-shadow:none;
+}
+
+.breadcrumb > .active {
+	color:lighten($accent-color-1, 5%);
+}
+
+
+/*MODULES ARTICLES CATEGORY*/
+#mod-articles-category-group h3{
+	background-color: black;
+	color: lighten($base-text-color, 80%) ;
+	padding-left: 10px;
+}
+
+.category-module img {
+	width: 30%;
+	margin-bottom: 2rem;
+	margin-right: 20px;
+}
+
+/*select the first image of each category group
+ which is the second div (the first div is for the heading)*/
+ .category-module li div:nth-child(2) img {
+	width: 100%;
+}
+
+.category-module img {
+	float: left;
+}
+
+small.mod-articles-category-writtenby {
+	text-transform: uppercase;
+}
+
+.mod-articles-category-title h2{
+	margin-top: 0;
+}
+
+
+/*MODULES ARTICLES LATEST NEWS*/
+
+div.latestnews img{
+	width:30%;
+	float:left;
+	margin: 5px 15px 5px 0;
+}
+.latestnews hr {
+	margin:5px 0;
+	border-top-width:1px;
+	border-bottom-width: 0;
+	border-style: solid;
+}
+
+h4{
+	margin-bottom: 0;
+}
+
+.latestnews .text-uppercase{
+	text-transform: uppercase;
+}
+
+/*ARTICLES MODULE NEWS FLASH*/
+.newsflash-title {
+	margin-bottom: 0;
+}
+
+ul.newsflash-default {
+	margin: 0;
+}
+
+.newsflash-default div.newsflash-item hr {
+	margin: 0 0 1rem 0;
+}
+
+/*SHOW FIRST PICTURE ONLY
+select the image in the first newsflash-item div
+first-of-type is used because other elements appear prior to div*/
+.newsflash-default div.newsflash-item:first-of-type .newsflash-image {
+	display: inline-block;
+}
+
+.newsflash-default div.newsflash-item:first-of-type .newsflash-title{
+	font-size: 150%;
+}
+
+/*HIDE ALL PICTURES*/
+.newsflash-default div.newsflash-item .newsflash-image {
+	display: none;
+}
+
+.newsflash-default div.newsflash-item:first-of-type  {
+	float: left;
+	width: 42%;
+	margin-right: 2%;
+	border-right: 1px dashed #B0ADAD;
+	padding: 1rem 1rem 0 0; /*TRBL*/
+}
+
+
+
+.newsflash-default div.newsflash-item {
+	float: right;
+	clear: right;
+	width: 55%;
+}
+
+.newsflash-default div.newsflash-item div.newsflash-introtext{
+	display: none;
+}
+
+
+.newsflash-horiz div img {
+	
+
+}	
+
+.newsflash-horiz div img.newsflash-image {
+	float: left;
+	margin: 0 2rem 2rem 0;
+	width: 35%;
+}
+.newsflash-horiz .readmore{
+	float: right;
+	margin-bottom: 1rem;
+}
+
+.newsflash-horiz hr {
+	clear: right;
+}
+.newsflash-horiz .newsflash-title{
+	margin-top: 0;
+}
+
+/*LABELS*/
+.label, .badge {
+	background-color: $accent-color-1;
+	a{
+		color: white;
+	}
+}
+

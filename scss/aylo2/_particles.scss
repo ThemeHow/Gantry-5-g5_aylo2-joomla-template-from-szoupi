@@ -1,0 +1,41 @@
+/*CONTENT PARTICLE*/
+.content-particle{
+	/*text-transform: uppercase;*/
+	/*font-size: $core-font-size + 1;*/
+
+}
+
+.subitem-icons{
+
+}
+
+.totop{
+    bottom: 5px;
+    right: 5px;
+    display: block;
+    position: fixed;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    cursor: pointer;
+    /*border: 1px solid #DBDBDB;*/
+   /* color: white;*/
+    /*background-color: white;*/
+    opacity: 1; 
+    /*visibility: visible;*/
+    text-align: center;
+    border-radius: 100%;
+    /*vertical-align: middle;*/
+}
+
+/*center icon*/
+.totop .fa {
+    text-rendering: auto;
+    top: 50%;
+    transform: translateY(-10%);
+}
+
+.aylo-logo {
+	
+}

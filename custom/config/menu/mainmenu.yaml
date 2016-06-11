@@ -1,0 +1,22 @@
+ordering:
+  home: ''
+  about: ''
+  news-layout: ''
+  rocksprocket: ''
+  featured-articles: ''
+items:
+  home:
+    id: 101
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: ''
+    width: auto
+    class: ''
+    icon: 'fa fa-home fa-2x'
+  news-layout:
+    id: 122
+    hash: ''
+    dropdown: fullwidth
+    dropdown_hide: ''
+    width: auto
+    class: ''

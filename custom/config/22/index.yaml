@@ -1,0 +1,24 @@
+name: 22
+timestamp: 1460501252
+preset:
+  image: 'gantry-admin://images/outlines/home.png'
+  name: preset_home
+  timestamp: 1460501232
+positions:
+  header: Header
+  navtop: Navtop
+  slider: Slider
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  mainabove: Mainabove
+  sidebar: Sidebar
+  breadcrumbs: Breadcrumbs
+  aside: Aside
+  mainbottom: Mainbottom
+  extension: Extension
+  footer-A: Footer-A
+  footer-B: footer-B
+  footer-C: footer-C
+  footer-D: footer-D
+  copyright: Copyright

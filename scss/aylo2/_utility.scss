@@ -1,0 +1,51 @@
+#g-utility {
+	padding: $section-padding 0;
+	background-color: $utility-background;
+	color: $utility-text-color;
+
+/*	.g-container {
+		position: relative;
+		//width: 100%;           //FULLSCREEN not working
+	}*/
+
+	a {
+		color: $utility-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($utility-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($utility-hyperlink-color, 10%);
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $utility-text-color;
+	}
+
+	.button {
+		background: $utility-hyperlink-color;
+		/*color: $mainabove-text-color;*/
+		color: $white;
+		&:hover {
+			background: lighten($utility-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($utility-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+	
+}
+
+@media print {
+	#g-utility {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

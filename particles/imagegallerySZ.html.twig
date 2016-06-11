@@ -1,0 +1,22 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+	<div class="image-gallery-sz">
+		<div class="g-grid">
+			{% for galleryimage in particle.galleryimages %}
+				<div class="g-block">
+					<div class="g-content">
+						<div class="view effect-one">
+							{% if galleryimage.image %}<img src="{{ url(galleryimage.image) }}" class="logo-large" alt="{{ galleryimage.headline|e }}" />{% endif %}
+							<div class="mask">	
+								{% if galleryimage.headline %}<h2>{{ galleryimage.headline|raw }}</h2>{% endif %}
+								{% if galleryimage.description %}<p class="image-gallery-descr hidden-phone hidden-tablet">{{ galleryimage.description|raw }}</p>{% endif %}
+								{% if galleryimage.linktext %}<p><a href="{{ galleryimage.link|e }}" class="button">{{ galleryimage.linktext|e }}</a></p>{% endif %}
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

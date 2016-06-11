@@ -1,0 +1,44 @@
+#g-copyright {
+	padding: $section-padding 0;
+	background: $copyright-background;
+	color: $copyright-text-color;
+
+	a {
+		color: $copyright-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($copyright-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($copyright-hyperlink-color, 10%);
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $copyright-text-color;
+	}
+
+	.button {
+		background: $copyright-hyperlink-color;
+		color: $white;
+		&:hover {
+			background: lighten($copyright-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($copyright-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+	
+}
+
+@media print {
+	#g-copyright {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

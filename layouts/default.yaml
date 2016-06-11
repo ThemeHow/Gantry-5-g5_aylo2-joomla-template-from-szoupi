@@ -1,0 +1,110 @@
+version: 2
+
+preset:
+  image: 'gantry-admin://images/outlines/3-col.png'
+
+layout:
+
+  /header/:
+    - position-header
+ 
+  /navtop/:
+    - position-navtop
+
+  /navigation/:
+    -
+      - 'logo 20'
+      - 'menu 60'
+      - 'custom-8080 20'
+
+  /slider/:
+    - position-slider
+
+  /showcase/:
+    - position-showcase
+
+  /utility/:
+    - position-utility
+
+  /feature/:
+    - position-feature
+
+  /mainabove/:
+    - position-mainabove
+
+  /container-main/:
+    -
+      - sidebar 20:
+         - position-sidebar
+         - spacer
+      - main 60:
+          - position-breadcrumbs
+          - system-messages
+          - system-content
+      - aside 20:
+         - position-aside
+         - spacer
+
+  /mainbottom/:
+    - position-mainbottom
+
+  /extension/:
+    - position-extension    
+
+  /footer/:
+    - position-footer
+
+  /copyright/:
+    -
+      - position-copyright
+    -
+      - 'copyright 25'
+      - 'social 50'
+      - 'totop 5'
+      - 'branding 20'     
+
+  offcanvas:
+    - mobile-menu
+
+structure:
+  slider:
+    type: section
+    attributes:
+      boxed: '2' #flushed
+      class: ''
+      background: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+content:
+  custom-8080:
+    title: Phone
+    attributes:
+      html: '<h2 style="margin: auto;"><span class="fa fa-phone-square" > </span> +30 69 00 00 00</h2>'
+    block:
+      variations: center
+  position-copyright:
+    attributes:
+      key: copyright
+  logo:
+    block:
+      variations: center
+  social:
+    block:
+      variations: 'center nopaddingall'
+  totop:
+    title: 'To Top'
+    block:
+      variations: align-right
+  branding:
+    block:
+      variations: align-right

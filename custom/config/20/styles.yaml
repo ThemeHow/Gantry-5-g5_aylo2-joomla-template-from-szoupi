@@ -1,0 +1,35 @@
+preset: preset4
+base:
+  hyperlink-color: '#e31c3d'
+accent:
+  color-1: '#e31c3d'
+  color-4: '#A39A37'
+header:
+  hyperlink-color: '#A39A37'
+navtop:
+  hyperlink-color: '#e31c3d'
+navigation:
+  background: '#e31c3d'
+  overlay: 'rgba(0, 0, 0, 0.1)'
+slider:
+  background: '#e31c3d'
+showcase:
+  hyperlink-color: '#e31c3d'
+utility:
+  hyperlink-color: '#e31c3d'
+feature:
+  background: '#e31c3d'
+mainabove:
+  hyperlink-color: '#e31c3d'
+main:
+  hyperlink-color: '#e31c3d'
+mainbottom:
+  hyperlink-color: '#e31c3d'
+extension:
+  hyperlink-color: '#e31c3d'
+footer:
+  hyperlink-color: '#e31c3d'
+copyright:
+  hyperlink-color: '#A39A37'
+offcanvas:
+  hyperlink-color: '#e31c3d'

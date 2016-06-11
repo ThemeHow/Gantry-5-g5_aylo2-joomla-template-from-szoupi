@@ -1,0 +1,45 @@
+#g-footer {
+	padding: $section-padding 0;
+	background: $footer-background;
+	color: $footer-text-color;
+
+	a {
+		color: $footer-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($footer-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($footer-hyperlink-color, 10%);
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $footer-text-color;
+	}
+
+	.button {
+		background: $footer-hyperlink-color;
+		color: $white;
+		&:hover {
+			background: lighten($footer-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($footer-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+	
+}
+
+@media print {
+	#g-footer {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

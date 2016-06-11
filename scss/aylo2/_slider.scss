@@ -1,0 +1,57 @@
+#g-slider {
+	padding: $section-padding 0;
+	background: $slider-background;
+	color: $slider-text-color;
+	position: relative;
+	z-index: 5;
+	margin-top: -4.8rem;
+
+
+	a {
+		color: $slider-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($slider-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($slider-hyperlink-color, 5%);
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $slider-text-color;
+	}
+
+	.button {
+		background: $slider-hyperlink-color;
+		/*color: $mainabove-text-color;*/
+		color: $white;
+		&:hover {
+			background: lighten($slider-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($slider-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+	
+}
+
+@media all and (max-width: $breakpoints-desktop-container) {
+	/*cover the gup below nav section in small devices*/
+	#g-slider {
+		margin-top: -6.2rem;
+	}
+}
+
+@media print {
+	#g-slider {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

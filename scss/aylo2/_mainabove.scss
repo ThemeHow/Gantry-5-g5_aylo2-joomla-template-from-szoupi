@@ -1,0 +1,45 @@
+#g-mainabove {
+	padding: $section-padding 0;
+	background: $mainabove-background;
+	color: $mainabove-text-color;
+
+	a {
+		color: $mainabove-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($mainabove-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($mainabove-hyperlink-color, 10%);
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $mainabove-text-color;
+	}
+
+	.button {
+		background: $mainabove-hyperlink-color;
+		color: $white;
+		&:hover {
+			background: lighten($mainabove-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($mainabove-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+	
+}
+
+@media print {
+	#g-mainabove {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

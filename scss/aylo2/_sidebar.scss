@@ -1,0 +1,27 @@
+#g-sidebar, #g-aside {
+	padding: $section-padding 0;
+	color: $main-text-color;
+
+	a {
+		
+	}
+
+	h1, h2, h3, h4, h5, h6, strong {
+
+	}
+
+
+	.button {
+		
+		
+	}
+}
+
+
+
+@media print {
+	#g-sidebar {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

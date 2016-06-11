@@ -1,0 +1,155 @@
+/*SEE ALSO scss/mixins/_nav.scss*/
+/*#g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container 
+configures the color of the menu txt */
+
+#g-navigation {
+	/*background: transparency from $navigation-overlay*/
+	background: $navigation-overlay none repeat scroll 0 0;
+    position: relative;
+    z-index: 12;
+	color: $navigation-text-color;
+    /*color: rgba(0, 0, 0, 0.5);*/
+	/*text-align: center;*/
+
+	.g-container {
+		position: relative;
+	}
+
+	h1, h2, h3, h4, h5, h6, strong, p {
+		color: $navigation-text-color;
+	}
+
+	/*MENU TITLES*/
+	a {
+		/*text-transform: uppercase;*/
+		font-weight:900;
+		color: lighten($navigation-background, 40%);
+		&:hover {
+			color: $navigation-text-color;
+		}
+	}
+
+	/*DIFFERENT TREATMENT FROM BUTTONS OF OTHER SECTIONS*/
+	.button {
+		background: $accent-color-4;
+		color: $white;
+		&:hover {
+			background: lighten($accent-color-4, 7%);
+		}
+		&:active {
+			background: darken($accent-color-4, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+
+
+	.g-social {
+		a {
+			background: darken($navigation-background, 6%);
+			border: none;
+			color: $navigation-text-color;
+			@include transition(background 0.2s);
+			&:hover {
+				background: lighten($navigation-background, 6%);
+			}
+		}
+	}
+
+	.g-main-nav {
+		/*margin: -($content-padding + $content-margin);*/
+		@include main-nav-colors($navigation-background, $navigation-text-color, $main-background, $main-text-color);
+		.g-toplevel {
+			@include display(flex);
+			@include flex-flow(row wrap);
+			justify-content: center;
+			-webkit-justify-content: center;
+		}
+	}
+
+	@include main-nav-indicators($navigation-background, $navigation-text-color);
+
+	.search {
+		input {
+			color: $main-text-color;
+		}
+	}
+}
+
+.g-main-nav {
+	.g-standard {
+		.g-dropdown {
+	    	@extend %dropdown-column;
+	    }
+	}
+	.g-toplevel {
+		font-weight: $font-weight-medium;
+		> li {
+
+			> .g-menu-item-container {
+				padding: 1.2rem $content-padding; /*configures the heigh of the background*/
+			}
+
+			> .g-menu-item-container {
+				> .g-menu-item-content {
+					line-height: normal;
+				}
+			}
+		}
+
+		i {
+			opacity: 0.6;
+		}
+	}
+
+	.g-dropdown {
+		text-align: left;
+	}
+
+	.g-sublevel {
+		> li {
+			> .g-menu-item-container {
+				padding: ($content-padding + $content-margin)/2 1rem;
+			}
+		}
+	}
+}
+
+#g-navigation, #g-header {
+	.align-left {
+		.g-toplevel {
+			justify-content: flex-start;
+			-webkit-justify-content: flex-start;
+		}
+	}
+
+	.align-right {
+		.g-toplevel {
+			justify-content: flex-end;
+			-webkit-justify-content: flex-end;
+		}
+	}
+}
+
+// Subtitle
+.g-menu-item-subtitle {
+	opacity: 0.7;
+}
+
+// Nav Overlay
+.g-nav-overlay, .g-menu-overlay {
+	background: $navigation-overlay;
+}
+
+
+
+
+
+@media print {
+	#g-navigation {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

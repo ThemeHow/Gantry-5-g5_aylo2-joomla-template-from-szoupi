@@ -1,0 +1,65 @@
+#g-header {
+	background: $header-background;
+	color: $header-text-color;
+	position: relative;
+	z-index: 6;
+
+
+	h1, h2, h3, h4, h5, h6, strong {
+		color: $header-text-color;
+	}
+
+	a {
+		color: $header-hyperlink-color;
+		&:hover, &:active, &:focus {
+			font-weight:900;
+			text-decoration: none;
+			color:darken($header-hyperlink-color, 10%);
+		}
+		&:visited {
+			font-weight:900;
+			color:darken($header-hyperlink-color, 10%);
+		}
+	}
+
+
+
+	.button {
+		background: $header-hyperlink-color;
+		color: $white;
+		&:hover {
+			background: lighten($header-hyperlink-color, 7%);
+		}
+		&:active {
+			background: darken($header-hyperlink-color, 5%);
+		}
+		&:visited {
+			color: $white;
+		}
+	}
+
+	.g-main-nav {
+
+		@include main-nav-colors($header-background, $header-text-color, $main-background, $main-text-color);
+
+		.g-toplevel {
+			@include display(flex);
+			@include flex-flow(row wrap);
+		}
+	}
+
+	@include main-nav-indicators($header-background, $header-text-color);
+
+	.search {
+		input {
+			color: $main-text-color;
+		}
+	}
+}
+
+@media print {
+	#g-header {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

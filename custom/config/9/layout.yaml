@@ -1,0 +1,444 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/2-col-right.png'
+  name: default-only-section-positions
+
+layout:
+  /header/:
+    -
+      - position-header
+    -
+      - system-messages-6181
+  /navtop/:
+    -
+      - position-navtop
+    -
+      - 'custom-7600 65'
+      - 'custom-7866 35'
+  /navigation/:
+    -
+      - 'menu-8692 65'
+      - 'social-7462 35'
+  /slider/:
+    -
+      - position-slider
+  /showcase/:
+    -
+      - 'position-showcase 25'
+      - 'position-position-5592 25'
+      - 'position-position-7957 25'
+      - 'position-position-5516 25'
+    -
+      - 'logo-8204 25'
+      - 'logo-9423 25'
+      - 'logo-7526 25'
+      - 'logo-6276 25'
+  /utility/:
+    -
+      - 'position-utility 33.3'
+      - 'position-position-8452 33.3'
+      - 'position-position-2454 33.3'
+    -
+      - 'customcontent-9982 33.3'
+      - 'customcontent-8707 33.3'
+      - 'customcontent-9081 33.3'
+    -
+      - 'customcontent-4324 33.3'
+      - 'customcontent-9908 33.3'
+      - 'customcontent-5728 33.3'
+  /feature/:
+    -
+      - position-feature
+    -
+      - custom-6331
+  /mainabove/:
+    -
+      - 'position-mainabove 50'
+      - 'position-position-4195 50'
+  /container-main/:
+    -
+      -
+        'main 70':
+          -
+            - position-breadcrumbs
+          -
+            - system-content-6736
+      -
+        'sidebar 30':
+          -
+            - spacer-8007
+  /mainbottom/:
+    -
+      - 'position-position-7856 50'
+      - 'position-mainbottom 50'
+    -
+      - 'logo-7079 50'
+      - 'customcontent-6733 50'
+  /extension/:
+    -
+      - position-extension
+    -
+      - custom-4401
+    -
+      - 'logo-8451 25'
+      - 'logo-2677 25'
+      - 'logo-2848 25'
+      - 'logo-8148 25'
+  /footer/:
+    -
+      - 'position-footer 25'
+      - 'position-position-6804 25'
+      - 'position-position-9450 25'
+      - 'position-position-6906 25'
+    -
+      - 'custom-9572 25'
+      - 'custom-1988 25'
+      - 'custom-4578 25'
+      - 'position-module-5865 25'
+  /copyright/:
+    -
+      - 'position-position-1404 25'
+      - 'position-position-9700 50'
+      - 'position-copyright 25'
+    -
+      - 'copyright-7098 25'
+      - 'social-3286 50'
+      - 'totop-7325 5'
+      - 'branding-9248 20'
+  offcanvas:
+    -
+      - mobile-menu-1887
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navtop:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  slider:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  mainabove:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+    subtype: aside
+    block:
+      fixed: 1
+  container-main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  position-header:
+    title: Header-A
+    attributes:
+      key: header-A
+  position-navtop:
+    title: Navtop-A
+    attributes:
+      key: navtop-A
+  custom-7600:
+    title: 'My logo'
+    attributes:
+      html: '<h1> MY LOGO <small class="hidden-tablet hidden-phone">| Something about you</small></h1>'
+    block:
+      variations: align-left
+  custom-7866:
+    title: Phone
+    attributes:
+      html: '<h2><span class="fa fa-phone-square" > </span> 6901 00 00 00</h2>'
+    block:
+      variations: align-right
+  menu-8692:
+    block:
+      variations: 'align-left nopaddingall'
+  social-7462:
+    attributes:
+      css:
+        class: ''
+      items:
+        -
+          icon: 'fa fa-facebook'
+          text: ''
+          link: '#'
+          name: facebook
+        -
+          icon: 'fa fa-twitter'
+          text: ''
+          link: '#'
+          name: twitter
+        -
+          icon: 'fa fa-google-plus'
+          text: ''
+          link: '#'
+          name: google+
+        -
+          icon: 'fa fa-linkedin'
+          text: ''
+          link: '#'
+          name: linkendin
+        -
+          icon: 'fa fa-envelope-o'
+          text: ''
+          link: 'mailto:'
+          name: email
+    block:
+      variations: align-right
+  position-slider:
+    title: Slider-full
+    attributes:
+      key: slider-full
+  position-showcase:
+    title: Showcase-A
+    attributes:
+      key: showcase-A
+  position-position-5592:
+    title: showcase-B
+    attributes:
+      key: showcase-B
+  position-position-7957:
+    title: showcase-C
+    attributes:
+      key: showcase-C
+  position-position-5516:
+    title: showcase-D
+    attributes:
+      key: showcase-D
+  logo-8204:
+    title: Image-A
+    attributes:
+      image: 'gantry-media://demos/mac-coffee-table.jpg'
+    block:
+      variations: 'center nopaddingall'
+  logo-9423:
+    title: Image-B
+    attributes:
+      image: 'gantry-media://demos/business.jpg'
+    block:
+      variations: 'center nopaddingall'
+  logo-7526:
+    title: Image-C
+    attributes:
+      image: 'gantry-media://demos/man-mountain.jpg'
+    block:
+      variations: 'center nopaddingall'
+  logo-6276:
+    title: Image-D
+    attributes:
+      image: 'gantry-media://demos/coffee-table.jpg'
+    block:
+      variations: 'center nopaddingall'
+  position-utility:
+    title: Utility-A
+    attributes:
+      key: utility-A
+  position-position-8452:
+    title: utility-B
+    attributes:
+      key: utility-B
+  position-position-2454:
+    title: utility-C
+    attributes:
+      key: utility-C
+  customcontent-9982:
+    title: Services
+    block:
+      variations: center
+  customcontent-8707:
+    title: Services
+    block:
+      variations: center
+  customcontent-9081:
+    title: Services
+    block:
+      variations: center
+  customcontent-4324:
+    title: Services
+    block:
+      variations: center
+  customcontent-9908:
+    title: Services
+    block:
+      variations: center
+  customcontent-5728:
+    title: Services
+    block:
+      variations: center
+  position-feature:
+    title: Feature-A
+    attributes:
+      key: feature-A
+  custom-6331:
+    title: Quote
+    attributes:
+      html: "  <blockquote>\n    <p>Put something inspiring and motivating here</p>\n  </blockquote>"
+    block:
+      class: aylo-quote-1
+      variations: center
+  position-mainabove:
+    title: Mainabove-A
+    attributes:
+      key: mainabove-A
+  position-position-4195:
+    title: mainabove-B
+    attributes:
+      key: mainabove-B
+  position-breadcrumbs:
+    attributes:
+      enabled: 0
+      key: breadcrumbs
+  position-position-7856:
+    title: mainbottom-A
+    attributes:
+      key: mainbottom-A
+  position-mainbottom:
+    title: Mainbottom-B
+    attributes:
+      key: mainbottom-B
+  logo-7079:
+    title: Image
+    attributes:
+      image: 'gantry-media://demos/RJQ5YA1291.jpg'
+    block:
+      variations: 'nomarginall nopaddingall'
+  customcontent-6733:
+    title: 'Get ready'
+    attributes:
+      mainicon: ''
+      headline: 'Get ready for success'
+      description: "<ul>\n<li>Morbi non sodales nisi. Suspendisse feugiat quam </li>\n<li>Morbi non sodales nisi. Suspendisse feugiat quam </li>\n<li>Morbi non sodales nisi. Suspendisse feugiat quam </li>\n</ul>"
+      link: ''
+      linktext: ''
+    block:
+      variations: 'margin-left margin-right'
+      extra:
+        -
+          margin-left: 10em;
+  position-extension:
+    title: Extension-A
+    attributes:
+      key: extension-A
+  custom-4401:
+    title: 'Some of our clients'
+    attributes:
+      html: '<h1>Some of our satisfied clients</h1>'
+    block:
+      variations: center
+  logo-8451:
+    title: Client-A
+    attributes:
+      image: 'gantry-media://demos/demo_image-150x150.jpg'
+    block:
+      variations: center
+  logo-2677:
+    title: Client-C
+    attributes:
+      image: 'gantry-media://demos/demo_image-150x150.jpg'
+    block:
+      variations: center
+  logo-2848:
+    title: Client-C
+    attributes:
+      image: 'gantry-media://demos/demo_image-150x150.jpg'
+    block:
+      variations: center
+  logo-8148:
+    title: Client-D
+    attributes:
+      image: 'gantry-media://demos/demo_image-150x150.jpg'
+    block:
+      variations: center
+  position-footer:
+    title: Footer-A
+    attributes:
+      key: footer-A
+  position-position-6804:
+    title: footer-B
+    attributes:
+      key: footer-B
+  position-position-9450:
+    title: footer-C
+    attributes:
+      key: footer-C
+  position-position-6906:
+    title: footer-D
+    attributes:
+      key: footer-D
+  custom-9572:
+    title: Services
+    attributes:
+      html: "<h2>Services</h2>\n<ul>\n<li>Morbi non sodales nisi.</li>\n<li>Suspendisse feugiat quam</li>\n<li>Morbi non sodales nisi. </li>\n<li>Suspendisse feugiat quam</li>\n</ul>\n<p> </p>"
+  custom-1988:
+    title: 'Other links'
+    attributes:
+      html: "<h2>Links</h2>\n<ul>\n<li>Morbi non sodales nisi.</li>\n<li>Suspendisse feugiat quam</li>\n<li>Morbi non sodales nisi. </li>\n<li>Suspendisse feugiat quam</li>\n</ul>\n<p> </p>"
+  custom-4578:
+    title: Privacy
+    attributes:
+      html: "<h2>We respect your privacy</h2> \n<p>and will never share your email address with any person or organization</p>"
+  position-module-5865:
+    title: 'Stay in touch'
+    attributes:
+      module_id: ''
+      key: stay-in-touch
+  position-position-1404:
+    title: copyright-A
+    attributes:
+      key: copyright-A
+  position-position-9700:
+    title: copyright-B
+    attributes:
+      key: copyright-B
+  position-copyright:
+    title: Copyright-C
+    attributes:
+      key: copyright-C
+  social-3286:
+    block:
+      variations: 'center nopaddingall'
+  totop-7325:
+    title: 'To Top'
+    block:
+      variations: align-right
+  branding-9248:
+    block:
+      variations: align-right

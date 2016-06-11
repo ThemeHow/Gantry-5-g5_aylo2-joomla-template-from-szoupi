@@ -1,0 +1,357 @@
+// Font Import
+@include import-font($base-body-font);
+@include import-font($base-heading-font);
+
+body, p {
+	font-family: get-font-family($base-body-font);
+	font-weight: $font-weight-regular;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: get-font-family($base-heading-font);
+	font-weight: $font-weight-medium;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: darken($base-text-color, 10%);
+}
+
+bold, strong {
+    font-weight: $font-weight-bold;
+}
+
+
+a {
+    color: $accent-color-1;
+    &:hover, &:active, &:focus {
+        text-decoration: underline;
+        color:darken($accent-color-1, 10%);
+    }
+    &:visited {
+        font-weight:900;
+        color:darken($accent-color-1, 10%);
+    }
+}
+
+/*Blockquote */
+blockquote {
+	border-left: 0.625rem solid $rule-color;
+	p {
+		font-size: $core-font-size + 0.1;
+		color: lighten($base-text-color, 20%);
+	}
+	cite {
+		display: block;
+		text-align: right;
+		color: $base-text-color;
+		font-size: $core-font-size + 0.2;
+	}
+}
+
+blockquote small {
+	color: lighten($base-text-color, 20%);
+}
+
+blockquote.pull-right {
+	border-right: 5px solid $base-border-color;
+}
+
+.aylo-quote-1 {
+    blockquote {
+        border-left: 0 solid #ccc;
+        margin: 1.5rem 10px;
+        padding: 0.5rem 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 7rem;
+        line-height: 2rem;
+        margin-right: 0.25rem;
+        vertical-align: -2.4rem;
+    }
+    blockquote:after {
+        
+    }
+    blockquote p {
+        font-size: 3rem;
+        display: inline;
+    }
+
+    blockquote cite:before {
+        content: "\2014 \2009";
+    }
+}
+
+
+
+
+// Inline and Code
+code {
+	background: $code-bg;
+	color: darken($code-text,10%);
+}
+
+
+/* $pre-bg etc variables derives from 
+* /scss/configuration/_colors.scss
+*/
+pre {
+	padding: 1rem;
+	margin: 2rem 0;
+	background: $pre-bg;
+	border: 1px solid $base-border-color;
+	border-radius: $core-border-radius;
+	line-height: 1.15;
+	font-size: $core-font-size - 0.1;
+    color: $pre-text;
+    
+	code {
+		color: $pre-text;
+		background: inherit;
+		font-size: $core-font-size - 0.1;
+	}
+}
+
+// Additional
+hr {
+	border-bottom: 4px solid $rule-color;
+}
+
+/*################ BUTTONS */
+
+.button, .aylo-button {
+    font-weight: $font-weight-medium;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: $core-border-radius;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    /*background: $accent-color-1;*/ /*takes the color from the section*/
+    color: $white;
+    border: 0;
+    line-height: $core-line-height;
+    font-size: $core-font-size;
+    vertical-align: middle;
+    text-shadow: none;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    @include transition(background 0.1s);
+
+    &:visited {
+        font-weight:900;
+        color: $white;
+    }
+  
+    &.success {
+        background: $success-color;
+    }  
+    &.info {
+        background: $info-color;
+    }  
+
+    &.warning {
+        background: $warning-color;
+    }  
+    &.danger {
+        background: $error-color;
+    }
+    &.secondary {
+        background:$white;
+        /*border:2px solid ; */
+        color:$black;
+    } 
+
+    &:hover {
+        background: $white;
+        color: $black !important;
+        text-decoration: none;
+    }
+    
+    &:active, &:focus {
+        background: darken($accent-color-1, 5%);
+        box-shadow: inset -1px -1px 1px rgba(0,0,0,0.15);
+        color: $white;
+    }
+}
+
+
+
+
+/*.button-border2 {border-radius: 2px;}
+.button-border4 {border-radius: 4px;}
+.button-border8 {border-radius: 8px;}
+.button-border12 {border-radius: 12px;}
+.button-border50 {border-radius: 50%;}*/
+
+/* http://www.w3schools.com/css/css3_buttons.asp*/
+
+
+
+/*ANIMATED BUTTON*/
+
+/*################ BUTTONS END */
+
+
+
+
+
+/*###### HOVER EFFECT ###############################*/
+
+.view {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right:0; 
+    bottom: 0;
+    left: 0;
+}
+.view img {
+    display: block;
+    position: relative;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff !important;
+    text-align: center;
+    position: relative;
+    padding: 0.3rem; 
+    background: rgba(0, 0, 0, 0.8);
+    margin: 1rem 0 0 0; 
+}
+.view p {
+    position: relative;
+    color: #fff;
+    margin: 0.625rem 1.25rem 1.25rem;
+    text-align: center;
+}
+.view a.info {
+    display: inline-block;
+    vertical-align: bottom;
+    text-decoration: none;
+    margin: 0.625rem 1.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+
+/*###############*/
+
+.effect-one img { 
+    transition: all 0.2s linear;
+}
+.effect-one .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.effect-one h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.effect-one p { 
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+.effect-one a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+/*###############*/
+
+.effect-one:hover img { 
+	transform: scale(1.1);
+} 
+.effect-one:hover .mask { 
+	opacity: 1;
+}
+.effect-one:hover h2,
+.effect-one:hover p,
+.effect-one:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.effect-one:hover p {
+    transition-delay: 0.1s;
+}
+.effect-one:hover a.info {
+    transition-delay: 0.2s;
+}
+
+/*###### LISTS STYLING ###############################*/
+.aylo-list {
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding-left: 0;
+    }
+    li:before {
+        content: "\f00c"; /* fa-check */
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.5em; 
+        width: 1.5em; 
+    } 
+    
+    /*###### Different styles */
+    &.check-square {
+        li:before {
+            content: "\f14a"; /* fa-check-square */
+        } 
+    }
+    &.check-square-o {
+        li:before {
+            content: "\f046"; /* fa-check-square-o */
+        } 
+    }
+    &.check-circle {
+        li:before {
+            content: "\f058"; /* fa-check-circle */
+        } 
+    }
+    &.check-circle-o {
+        li:before {
+            content: "\f05d"; /* fa-check-circle-o */
+        } 
+    }
+    &.cog {
+        li:before {
+            content: "\f013"; /* fa-cog */
+        } 
+    }
+    &.circle {
+        li:before {
+            content: "\f111"; /* fa-circle */
+        } 
+    }
+    &.chevron-circle-right {
+        li:before {
+            content: "\f138"; /* fa-chevron-circle-right */
+        } 
+    }
+    &.square-o {
+        li:before {
+            content: "\f096"; /* fa-square-o */
+        } 
+    }
+}
+
+
+/*###### END OF LISTS STYLING ###############################*/

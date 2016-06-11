@@ -1,0 +1,32 @@
+name: Base Styles
+description: Base styles for the Aylo2 theme
+type: core
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Base Background
+      default: "#ffffff"
+    text-color:
+      type: input.colorpicker
+      label: Base Text Color
+      default: "#212121"
+    hyperlink-color:
+      type: input.colorpicker
+      label: Hyperlink
+      default: "#0071bc"
+    body-font:
+      type: input.fonts
+      label: Body Font
+      default: 'ubuntu'
+    heading-font:
+      type: input.fonts
+      label: Heading Font
+      default: 'ubuntu-condensed'
+    favicon:
+      type: input.imagepicker 
+      label: Favicon 
+      filter: '.(jpe?g|gif|png|svg|ico)$'
+      default: 'gantry-media://favicon.ico'

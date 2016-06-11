@@ -1,0 +1,19 @@
+name: Feature Colors
+description: Feature colors for the Aylo2 theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#0071bc"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#ffffff"
+    hyperlink-color:
+      type: input.colorpicker
+      label: Hyperlink
+      default: "#fdb81e"      

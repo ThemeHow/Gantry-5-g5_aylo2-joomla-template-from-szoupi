@@ -1,0 +1,15 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% set start_date = particle.date.start|trim in ['now', ''] ? 'now'|date('Y') : particle.date.start|e %}
+{% set end_date = particle.date.end|trim in ['now', ''] ? 'now'|date('Y') : particle.date.end|e %}
+
+{% block particle %}
+Copyright &copy;
+{% if (start_date != end_date) %}{{ start_date|e }} - {% endif %}
+{{ end_date|e }}
+
+{% if particle.site %}<a href="{{ particle.site | default(gantry_base) }}">{% endif %}
+{{ particle.owner }}
+{% if particle.site %}</a>{% endif %}
+
+{% endblock %}

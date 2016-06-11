@@ -1,0 +1,20 @@
+name: Navigation Colors
+description: Navigation colors for the Aylo2 theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#0071bc"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#ffffff"
+    overlay:
+      type: input.colorpicker
+      label: Overlay
+      description: Set the color of the page overlay (transparency) when the certain menu modes are active.
+      default: "rgba(0, 113, 188, 0.2)"

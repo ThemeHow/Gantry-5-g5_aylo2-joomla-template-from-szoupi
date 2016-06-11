@@ -1,0 +1,77 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/outlines/3-col.png'
+layout:
+
+  /header/:
+    - position-header
+    - system-messages
+    
+  /navtop/:
+    - [position-navtop-A 65, position-navtop-B 35]
+
+  /navigation/:
+    - [menu 65, social 35]
+
+  /slider/:
+    -
+      - position-slider
+
+  /showcase/:
+    - [position-showcase-A 25, position-showcase-B 25, position-showcase-C 25, position-showcase-D 25]
+
+  /utility/:
+    - [position-utility-A 33.3, position-utility-B 33.3, position-utility-C 33.3]
+
+  /feature/:
+    - position-feature
+
+  /mainabove/:
+    - [position-mainabove-A 50, position-mainabove-B 50]
+
+  /container-main/:
+    -
+      - sidebar 20:
+         - position-sidebar
+         - spacer
+      - main 60:
+          - position-breadcrumbs
+          - system-messages
+          - system-content
+      - aside 20:
+         - position-aside
+         - spacer
+         
+  /mainbottom/:
+    - [position-mainbottom-A 50, position-mainbottom-B 50]
+
+  /extension/:
+    - position-extension-A
+
+  /footer/:
+    - [position-footer-A 25, position-footer-B 25, position-footer-C 25, position-footer-D 25]
+
+  /copyright/:
+    - [position-copyright-A 33.3, position-copyright-B 33.3, position-copyright-C 33.3]
+    - [copyright 25, social 50, totop 5, branding 20]
+
+  offcanvas:
+    -
+      - mobile-menu
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+  slider:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      background: ''

@@ -1,0 +1,188 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: Demostrate typograply
+layout:
+  /header/:
+    -
+      - custom-7907
+    -
+      - custom-1500
+  /navtop/:
+    -
+      - custom-2952
+    -
+      - custom-1500
+  /navigation/:
+    -
+      - custom-3493
+    -
+      - custom-1500
+  /slider/:
+    -
+      - custom-7027
+    -
+      - custom-1500
+  /showcase/:
+    -
+      - custom-7444
+    -
+      - custom-1500
+  /utility/:
+    -
+      - custom-2783
+    -
+      - custom-1500
+  /feature/:
+    -
+      - custom-4582
+    -
+      - custom-1500
+  /mainabove/:
+    -
+      - custom-4905
+    -
+      - custom-1500
+  /main/:
+    -
+      - custom-6693
+    -
+      - custom-1500
+  /mainbottom/:
+    -
+      - custom-2096
+    -
+      - custom-1500
+  /extension/:
+    -
+      - custom-7625
+    -
+      - custom-1500
+  /footer/:
+    -
+      - custom-7096
+    -
+      - custom-1500
+  /copyright/:
+    -
+      - custom-9550
+    -
+      - custom-1500
+  offcanvas:
+    -
+      - mobile-menu-1887
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navtop:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  slider:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      background: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      background: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  mainabove:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      background: ''
+  main:
+    attributes:
+      boxed: ''
+  mainbottom:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      background: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  custom-7907:
+    title: header
+    attributes:
+      html: '<h1>HEADER</h1>'
+  custom-2952:
+    title: NAVTOP
+    attributes:
+      html: '<h1>NAVTOP</h1>'
+  custom-3493:
+    title: navigation
+    attributes:
+      html: '<h1>NAVIGATION</h1>'
+  custom-7027:
+    title: slider
+    attributes:
+      html: '<h1>SLIDER</h1>'
+  custom-7444:
+    title: showcase
+    attributes:
+      html: '<h1>SHOWCASE</h1>'
+  custom-2783:
+    title: utility
+    attributes:
+      html: '<h1>UTILITY</h1>'
+  custom-4582:
+    title: feature
+    attributes:
+      html: '<h1>FEATURE</h1>'
+  custom-4905:
+    title: 'main above'
+    attributes:
+      html: '<h1>MAIN ABOVE</h1>'
+  custom-6693:
+    title: main
+    attributes:
+      html: '<h1>MAIN</h1>'
+  custom-2096:
+    title: 'main bottom'
+    attributes:
+      html: '<h1>MAIN BOTTOM</h1>'
+  custom-7625:
+    title: extension
+    attributes:
+      html: '<h1>EXTENSION</h1>'
+  custom-7096:
+    title: footer
+    attributes:
+      html: '<h1>FOOTER</h1>'
+  custom-9550:
+    title: copyright
+    attributes:
+      html: '<h1>COPYRIGHT</h1>'
+  custom-1500:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h1>Heading H1</h1>\n<h2>Heading H2</h2>\n<h3>Heading H3</h3>\n<h4>Heading H4</h4>\n<h5>Heading H5</h5>\n<h6>Heading H6</h6>\n<p>this is a paragraph and <a href=\"\">this is a link</a> inside a paragraph</p>\n<p>this is a paragraph and <a class=\"button\" href=\"\">button </a> inside a paragraph</p>\n<pre>this is preformatted text</pre>\n<p> \n\n\n<button type=\"button\" class=\"button\">button</button>\n\n<button type=\"button\" class=\"aylo-button success\">aylo-button success</button>\n\n<button type=\"button\" class=\"aylo-button info\">aylo-button info</button>\n\n<button type=\"button\" class=\"aylo-button warning\">aylo-button warning</button>\n\n<button type=\"button\" class=\"aylo-button danger\">aylo-button danger</button>\n\n<button type=\"button\" class=\"aylo-button secondary\">aylo-button secondary</button>\n\n\n\n\n</p>"
